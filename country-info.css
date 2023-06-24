@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: hsl(var(--White));
+}
+/* # Front-end Style Guide */
+
+/* ## Layout */
+
+/* The designs were created to the following widths: */
+
+/* - Mobile: 375px */
+/* - Desktop: 1440px */
+
+/* ## Colors */
+
+/* ### Neutral */
+:root{
+--Dark-Blue:209, 23%, 22%;
+--Very-Dark-Blue:207, 26%, 17%;
+--Very-Dark-Blu:200, 15%, 8%;
+--Dark-Gray:0, 0%, 52%;
+--Very-Light-Gray:0, 0%, 75%;
+--White:0, 0%, 100%;
+
+/* ## Typography */
+
+/* ### Body Copy */
+
+--Homepage-Items: 14px
+--Detail-Page: 16px 
+
+/* ### Fonts */
+
+--Family:(https://fonts.google.com/specimen/Nunito+Sans)
+--Weights: 300, 600, 800
+}
+
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: hsl(var(--White));
+    font-size: 14px;
+    background-color:hsl(var(--Dark-Blue));
+    
+    
+   
+}
+.dark-light-mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 1rem;
+   background-color: transparent;
+   border: none;
+  
+   cursor: pointer;
+   
+}
+.light-mode-text{
+    color: hsl(var(--White));
+}
+.fa-moon{
+    color: hsl(var(--White));
+    cursor: pointer;
+}
+
+body{
+    background-color: hsl(var(--Very-Dark-Blue));
+
+}
+.main-container{
+    background-color: hsl(var(--Very-Dark-Blue));
+
+}
+.navigation{
+    display: flex;
+    padding: 2.5rem 6rem;
+}
+.back{
+    display: flex;
+    border: none;
+    background-color: hsl(var(--Dark-Blue));
+    padding: 1rem 3rem;
+    font-size: 16px;
+    gap: .5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.about-country{
+   
+    padding: 0rem 6rem;
+}
+.display-country{
+   display: grid;
+   grid-template-columns: auto auto;
+   
+}
+.display-country img{
+    width: 350px;
+   
+}
+.country-details{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    gap: 4rem;
+   
+}
+
+.left-block{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    white-space: nowrap;
+}
+p{
+    display: flex;
+    gap: 1rem;
+    color: hsl(var(--Very-Light-Gray));
+}
+.country-info{
+    padding: 0rem 2rem;
+}
+.country-info h2{
+ font-size: 26px;
+ margin-bottom: 1.7rem;
+}
+
+.right-block{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.border-countries{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+.border-tag{
+    display: flex;
+   white-space: nowrap;
+    
+}
+.border{
+display: flex;
+flex-wrap: wrap;
+}
+
+.borders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: hsl(var(--Dark-Blue));
+   font-size: 14px;
+   padding: .5rem 1rem;
+  
+}

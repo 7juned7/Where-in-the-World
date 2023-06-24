@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/062e417390.js" crossorigin="anonymous"></script>
+    <script src="./app.js" defer></script>
+    <title>What in  the World?</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <h1>Where in the World</h1>
+        </a>
+        
+        <button class ="dark-light-mode">
+            <i class="fa-solid fa-moon" ></i>
+            <p class="light-mode-text">LIGHT MODE</p>
+        </div>                                   
+
+    </header>
+
+    <section class="main-container">
+        <div class="navigation">
+            <div class="search-area">
+                <i class="fa fa-search "></i>
+                <input type="text" name="search" id="search" class="search" placeholder="Search for a country" onkeyup="searchCountries()">
+
+            </div>
+
+           <div class="filter">
+            <button class="filter-btn" >Filter by Region
+                <i class="fa fa-angle-down"></i>
+                
+            </button>
+            <div class="filter-dropdown">
+                <div class="options">All</div>
+                <div class="options" >Africa</div>
+                <div class="options" >Americas</div>
+                <div class="options" >Asia</div>
+                <div class="options" >Europe</div>
+                <div class="options" >Oceania</div>
+            </div>
+            
+
+           </div>
+        </div>
+        
+            <div class="world">
+           
+            </div>
+       
+        
+    </section>
+    
+</body>
+</html>
