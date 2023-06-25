@@ -63,6 +63,9 @@
    cursor: pointer;
    
 }
+.light-mode-text{
+font-size: 10px;
+}
 .fa-moon{
     color: hsl(var(--White));
 }
@@ -103,7 +106,7 @@
 .filter-btn{
 
     display: flex;
-    width: 12rem;
+    width: 10rem;
     justify-content: space-around;
     align-items: center;
     color: hsl(var(--White));
@@ -123,7 +126,7 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    width: 12rem;
+    width: 10rem;
     margin-top: 3px;
     border-radius: 5px;
     background-color: hsl(var(--Dark-Blue));
@@ -196,7 +199,7 @@ rotate: 180deg;
 
 /* -----responsive---------- */
 
-@media (max-width: 375px) {
+@media (max-width: 435px) {
 
     .main-container{
        
@@ -206,7 +209,7 @@ rotate: 180deg;
     }
 
     .header{
-        font-size: 8px;  
+        font-size: 10px;  
     }
 
     .world{
@@ -286,10 +289,8 @@ rotate: 180deg;
        font-size: 10px;
      }
      .fa-search{
-       
-        font-size: 10px;
-   
-       padding: 10px;
+      font-size: 10px;
+      padding: 10px;
         
     }
     
