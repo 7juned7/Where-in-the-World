@@ -57,10 +57,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   gap: 1rem;
+   gap: .5rem;
    background-color: transparent;
    border: none;
-  
    cursor: pointer;
    
 }
@@ -79,7 +78,7 @@ body{
 }
 .main-container{
     background-color: hsl(var(--Very-Dark-Blue));
-
+    padding: 1rem 0;
 }
 .navigation{
     display: flex;
@@ -94,7 +93,9 @@ body{
     gap: .5rem;
     text-align: center;
     cursor: pointer;
+    box-shadow: 0 0 5px 0px black;
 }
+
 .about-country{
    
     padding: 0rem  6rem;
@@ -168,6 +169,7 @@ flex-wrap: wrap;
    background-color: hsl(var(--Dark-Blue));
    font-size: 14px;
    padding: .5rem 1rem;
+   cursor: pointer;
   
 }
 
@@ -175,10 +177,9 @@ flex-wrap: wrap;
 @media (max-width: 950px) {
     .display-country{
         display: flex;
-   
-        gap: 2rem;
+        gap: 2remrem;
         flex-direction: column;
-        justify-content: center;
+        
         align-items: center;
      }
 }
@@ -199,7 +200,7 @@ flex-wrap: wrap;
         font-size: 10px;  
     }
     .navigation{
-        padding: 2rem 5rem;
+        padding: 1rem 2rem;
     }
     .back{
         display: flex;
@@ -211,17 +212,23 @@ flex-wrap: wrap;
         text-align: center;
         cursor: pointer;
     }
+  
+    .about-country{
+  
+        padding: 0rem  0rem;
+    }
     .display-country img{
-        width: 150px;
-        height: 90px;
+        width: 200px;
+        height: 120px;
         
         
      }
-     .country-details{
-        gap: 0;
+     .display-country{
+        gap: 2rem;
      }
      .light-mode-text{
         color: hsl(var(--White));
-        font-size: 6px;
+        font-size: 10px;
     }
+    
 }
